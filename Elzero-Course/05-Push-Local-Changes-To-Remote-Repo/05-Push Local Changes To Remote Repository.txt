@@ -1,0 +1,5 @@
+Push Local Changes To Remote Repo {
+	- git branch /* Return Name Of This Branch Of Repo */
+	- git remote -v /* Return Name Of Remote */ 
+	- git push RemoteName BrachName /* Send From Stage-3 To Stage-4 */
+}

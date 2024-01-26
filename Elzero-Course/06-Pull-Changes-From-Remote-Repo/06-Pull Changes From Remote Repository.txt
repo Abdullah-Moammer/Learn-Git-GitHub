@@ -1,0 +1,5 @@
+Pull New Changes From Remote {
+  1- Settings -> Collaborations -> PersonName.
+  2- He Must Accept The Invitation -> He Write git clone URL
+  3- git pull OriginName /* The Member Pulls Changes From The Repo */
+}

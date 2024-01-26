@@ -1,0 +1,27 @@
+Branching And Merging {
+  1- git branch
+  2- git branch BranchName /* Create New Branch */
+  3- git branch
+  4- Create New Branch {
+	- git checkout BranchName /* Switched To BranchName */
+	- git chekout -b BranchName /* Create New Branch and Switched It */
+  }
+  6- Delete Branch { /* ( Master -> origin ) */
+	If ( git branch -D BranchName ):
+		- Delete If True Marging || False Marging
+	If ( git branch -d BranchName ):
+		If ( True Marging ):
+			- SaveDelete
+		else:
+			- ErrorDelete Because The Branch Is Not Fully Merged
+  }
+  7- git branch -m BranchName /* ReName */
+  9- Push BranchName {
+	if ( (Master -> origin) and (git push origin master) ):
+		- Will Be Pushed
+	elf( (BranchName -> origin) and (git push origin BranchName) ):
+		1- Create a Pull Request For 'BranchName' on GitHub By Visiting
+		2- After That, The Admin Completes The Steps To PrePare You Request
+  }
+
+}

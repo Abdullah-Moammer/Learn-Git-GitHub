@@ -1,0 +1,10 @@
+Generate Public Key {
+  1- ssh-keygen -t rsa -b 4096 -C "Email@gmail.com".
+/* Generate Public Key Using -type RSA Algorithm -byte 4096 */
+  2- Enter file in which to save the key.
+  3- Enter pass phrase. /* password for this key - can be empty */
+  4- cat FilePath /* return the key */
+  5- Copy the key -> Go to Settings in GitHub -> SSH and GPG keys -> New ssh key
+  6- ssh -T git@github.com.
+/* To authenticate with GitHub using the public key without having to enter an email */
+}

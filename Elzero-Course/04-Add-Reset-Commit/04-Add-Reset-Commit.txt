@@ -1,0 +1,13 @@
+/* 
+	Stage-1 : Working Directory  'Your File After Clone' -> get add => Send To Stage-2
+	Stage-2 : Staging area 'Your file after clone' -> get commit => Send To Stage-3
+	Stage-3 : Local Repo 'Your file after clone' -> get push => Send To Stage-4
+	Stage-4 : Remote Repo
+	Note: Stage-1-2-3 are Local In Your Device But Stage-4 are Globl
+*/
+Add & Reset & Commit {
+	- git status /* Return Working Directory State */
+	- git reset head File.any /* Reset File From Stage-2 */
+	- git add filesName /* Send From Stage-1 Into Stage-2 */
+	- git commit -m " any Massages " /* Send From Stage-2 Into Stage-3 */
+}

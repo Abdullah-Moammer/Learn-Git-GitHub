@@ -1,0 +1,10 @@
+Create Repository From Existing Project {
+ 1- mkdir FileName.
+ 2- cd FileName.
+ 3- git init. /* Initialized empty Git repository */
+ 4- Go to GitHub -> create new repo -> take URL.
+ 5- git remote add origin URL.
+/* add to remote */
+ 6- git push -u origin master.
+/* to pull -> push */
+}

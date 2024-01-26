@@ -1,0 +1,5 @@
+Everything About Aliases {
+  ex- git config --global alias.cm command
+  2- git cm = git command
+  3- git config --global --edit /* Open Config File */
+}
